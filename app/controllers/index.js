@@ -56,8 +56,8 @@ function request(withCredentials) {
 
   if (withCredentials) {
     config.withCredentials = true;
-    config.username = 'VT11E41975F9CAEA3A106CC67167CEBC21';
-    config.password = '58712C1C7624FBB2435E330AF5F74F76E905';
+    config.username = 'xxxx';
+    config.password = 'xxxx';
   }
 
   console.log('HTTP CLIENT CONFIG ' + JSON.stringify(config));
