@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+		<Label id="simplePost">Simple POST</Label>
+		<Label id="basicAuthPost">Basic Auth POST</Label>
+	</Window>
+</Alloy>
