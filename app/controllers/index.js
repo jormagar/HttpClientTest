@@ -28,16 +28,16 @@ function request(withCredentials) {
   expire = false;
 
   if (upv) {
-    url = 'https://siupv.upv.es/oauth/tokens/';
+    url = 'xxx';
 
     if (expire) {
-      url = 'https://siupv.upv.es/oauth/tokens/?expires_in=60';
+      url = 'xxx';
     }
 
     data = {
       'grant_type': 'refresh_token',
-      'UPV_UUID': 'd448083bd9201c1f',
-      'refresh_token': 'KMUVkM4C717666DCD866AA1C8324FC9A2EED13AdZXbG'
+      'UPV_UUID': 'xxx',
+      'refresh_token': 'xxx'
     };
   } else {
     url = 'https://httpbin.org/post';
